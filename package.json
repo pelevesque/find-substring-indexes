@@ -1,0 +1,39 @@
+{
+  "name": "@pelevesque/find-substring-indexes",
+  "version": "0.0.1",
+  "description": "Finds all the indexes of a substring.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "scripts": {
+    "test": "standard && mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pelevesque/find-substring-indexes.git"
+  },
+  "keywords": [
+    "find",
+    "substring",
+    "index",
+    "indexes"
+  ],
+  "author": "Pierre-Emmanuel Lévesque <pierre.e.levesque@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pelevesque/find-substring-indexes/issues"
+  },
+  "homepage": "https://github.com/pelevesque/find-substring-indexes#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.4",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.1.4",
+    "standard": "^12.0.1"
+  }
+}
